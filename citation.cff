@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite the version you used."
+type: software
+title: "Optimizing Clinical TFL Review with Python and Power BI: A Reproducible Workflow to Reduce QC Time and Improve Traceability"
+authors:
+  - family-names: "Cherakam"
+    given-names: "Vijaya Lakshmi"
+    orcid: https://orcid.org/0009-0004-1245-2618
+    repository-code: "https://github.com/Vijaya-Cherakam/DataVisualization-Python-PowerBI"
+    url: "https://github.com/Vijaya-Cherakam/DataVisualization-Python-PowerBI"
+abstract: >-
+Clinical Programming and Biostatistics teams frequently operate under significant time constraints while
+being responsible for producing accurate, consistent, and submission-ready Tables, Figures, and Listings
+(TFLs). Traditional manual TFL review processes are resource-heavy, and susceptible to oversight,
+particularly in large or complex clinical studies where multiple data transfers were expected.
+This paper presents a practical, open-source driven framework leveraging Python and Power BI to enhance
+and streamline the TFL validation process in clinical trials. The proposed approach integrates automated
+data and metadata validation using Python, along with independent cross-validation of statistical
+summaries through interactive Power BI dashboards. These dashboards enable reviewers to rapidly
+identify discrepancies, trends, and anomalies across outputs.
+The framework supports reproducible validation, reduces manual review cycles, and improves collaboration
+and communication among programming, statistics, and study teams. Examples based on typical clinical
+trial deliverables demonstrate how these open-source workflows can be incorporated into existing
+processes without disrupting established standards.
+This paper provides attendees with actionable methods to improve TFL review efficiency and data quality
+within real-world project timelines. Implementation details, representative code snippets, governance and
+validation considerations, and a discussion of limitations and future enhancements are included. The
+approach enhances traceability, supports inspection of readiness, and complements rather than replaces
+validated SAS®/R processes used for final regulatory submissions.
+keywords:
+  - clinical research
+  - clinical trial
+  - statistical programming
+  - Tables Listings and Figures
+  - quality control
+  - SAS
+  - Python
+  - Power BI
+  - reproducibility
